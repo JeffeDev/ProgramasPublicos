@@ -1,0 +1,18 @@
+package br.com.wmw.cleancode.nomenclaturas;
+
+//TODO: Melhorar nomes dos atributos, métodos e variáveis
+//TODO: Observar se há possibilidade de criar constantes para valores fixos
+public class Circulo {
+
+	private final Double PI = 3.14;
+	private raioCircunferencia = 0D;
+	
+	public Circulo(raioCircunferencia) {
+		this.raioCircunferencia = raioCircunferencia;
+	}
+
+	public double r() {
+		return PI * this.r * this.r;
+	}
+
+}

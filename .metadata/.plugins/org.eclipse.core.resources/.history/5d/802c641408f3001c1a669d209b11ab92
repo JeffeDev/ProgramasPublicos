@@ -1,0 +1,5 @@
+ackage br.com.wmw.cleancode.excecoes;
+
+public class ArquivoNaoEcontradoException extends Exception {
+
+}

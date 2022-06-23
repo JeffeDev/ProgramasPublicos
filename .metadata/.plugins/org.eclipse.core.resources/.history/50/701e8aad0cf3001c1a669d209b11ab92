@@ -1,0 +1,12 @@
+package br.com.wmw.cleancode.excecoes;
+
+public class ErroDeLeituraException extends RuntimeException {
+
+	private static final long serialVersionUID = 1L;
+
+	public ErroDeLeituraException(String message, Throwable cause) {
+		super(message, cause);
+	}
+	
+
+}

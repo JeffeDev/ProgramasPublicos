@@ -1,0 +1,7 @@
+package br.com.wmw.cleancode.nomenclaturas;
+
+public class Cliente {
+
+	private Long idCliente;
+
+}

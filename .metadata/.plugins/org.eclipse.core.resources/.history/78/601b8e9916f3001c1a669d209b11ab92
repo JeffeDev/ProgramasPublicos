@@ -1,0 +1,5 @@
+package br.com.wmw.cleancode.nomenclaturas;
+
+public interface ClienteRepository {
+	Cliente FindById(final Long idCliente);
+}

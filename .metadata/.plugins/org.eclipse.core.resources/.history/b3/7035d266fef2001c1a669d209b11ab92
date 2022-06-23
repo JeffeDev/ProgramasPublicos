@@ -1,0 +1,6 @@
+package br.com.wmw.cleancode.comentarios;
+
+public class Estoque {
+	private Double valor;
+	
+}

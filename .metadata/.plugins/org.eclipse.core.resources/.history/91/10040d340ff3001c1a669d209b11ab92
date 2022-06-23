@@ -1,0 +1,9 @@
+package br.com.wmw.cleancode.excecoes;
+
+public class ErroException extends Exception {
+
+	public ErroException(String message, Throwable cause) {
+		super("Ocorreu um erro no arquivo " + message, cause);
+	}
+
+}

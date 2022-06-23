@@ -1,0 +1,14 @@
+1655993805393	Delete element
+1655993811968	Delete element
+1655994374574	Extract method 'CalcularSeQuantidadeMaiorIgualCemDescontoTrinta'
+1655994446012	Extract method 'CalcularSeQuantidadeMaiorIgualCinquentaDescontoQuinze'
+1655994491761	Extract method 'CalcularSeQuantidadeMaiorIgualDezDescontoDez'
+1655994596462	Extract method 'CalcularDescontoPorEstoquePorQuantidade'
+1655994662442	Rename method 'CalcularDescontoPorEstoquePorQuantidade'
+1655994786349	Extract method 'AplicarDesconto'
+1655996314354	Rename method 'CalcularDescontoDoEstoquePorQuantidade'
+1655997656914	Delete element
+1656000984193	Rename type 'ErroValorMenorZeroException'
+1656001190600	Rename package 'br.com.wmw.cleancode.excecoes.TratamentoDeErros'
+1656003293199	Rename field 'repository'
+1656003351350	Rename local variable 'repository'

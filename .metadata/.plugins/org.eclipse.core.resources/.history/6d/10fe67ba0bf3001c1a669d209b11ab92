@@ -1,0 +1,6 @@
+package br.com.wmw.cleancode.excecoes;
+
+public class ErroArquivoNaoEncontradoException extends RuntimeException {
+
+}
+

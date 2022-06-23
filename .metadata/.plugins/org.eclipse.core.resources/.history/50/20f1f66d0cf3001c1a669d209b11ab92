@@ -1,0 +1,16 @@
+package br.com.wmw.cleancode.excecoes;
+
+public class ErroArquivoNaoEncontradoException extends RuntimeException {
+
+	private static final long serialVersionUID = 1L;
+
+	public ErroArquivoNaoEncontradoException(String message, Throwable cause) {
+		super(message, cause);
+		
+	}
+	
+	
+	
+
+}
+

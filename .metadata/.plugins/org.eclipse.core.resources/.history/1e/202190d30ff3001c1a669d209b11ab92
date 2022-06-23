@@ -1,0 +1,12 @@
+package br.com.wmw.cleancode.excecoes.TratamentoDeErros;
+
+public class ErroValorMenorZeroException extends Exception {
+
+	private static final long serialVersionUID = 1L;
+
+	public ErroValorMenorZeroException(String message) {
+		super(message);
+	}
+
+	
+}

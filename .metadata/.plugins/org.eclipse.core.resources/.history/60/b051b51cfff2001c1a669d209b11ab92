@@ -1,0 +1,11 @@
+package br.com.wmw.cleancode.comentarios;
+
+public class TestaEstoque {
+
+	public static void main(String[] args) {
+		Estoque estoque = new Estoque(5000.0, 2, 100, true, rue);
+		estoque.calcularDesconto();
+
+	}
+
+}

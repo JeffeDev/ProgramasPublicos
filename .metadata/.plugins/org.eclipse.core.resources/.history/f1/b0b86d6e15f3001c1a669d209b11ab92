@@ -1,0 +1,17 @@
+package br.com.wmw.cleancode.nomenclaturas;
+
+//TODO: Melhorar nomes dos atributos, parâmetros e variáveis 
+public class ClienteService {
+
+	private final ClienteRepository repositoryCliente;
+
+	public ClienteService(final ClienteRepository clienteRepository) {
+		this.repositoryCliente = clienteRepository;
+	}
+
+	public Cliente findCliente(final Cliente cliente) {
+		final Cliente cliente2 = this.repositoryCliente.consultar(cliente.getId());
+		return cliente2;
+	}
+
+}

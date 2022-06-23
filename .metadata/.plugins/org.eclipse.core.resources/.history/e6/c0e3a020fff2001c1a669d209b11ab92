@@ -1,0 +1,37 @@
+package br.com.wmw.cleancode.comentarios;
+
+public class Estoque {
+	private Double valor;
+	private Integer quantidade;
+	private Integer estoque; 
+	private boolean descontoPorEstoque; 
+	private boolean descontoPorQuantidade;
+	
+	public Estoque() {
+		
+	}
+	public Estoque(Double valor, Integer quantidade, Integer estoque, boolean descontoPorEstoque,
+			boolean descontoPorQuantidade) {
+		this.valor = valor;
+		this.quantidade = quantidade;
+		this.estoque = estoque;
+		this.descontoPorEstoque = descontoPorEstoque;
+		this.descontoPorQuantidade = descontoPorQuantidade;
+	}
+	public Double getValor() {
+		return valor;
+	}
+	public Integer getQuantidade() {
+		return quantidade;
+	}
+	public Integer getEstoque() {
+		return estoque;
+	}
+	public boolean isDescontoPorEstoque() {
+		return descontoPorEstoque;
+	}
+	public boolean isDescontoPorQuantidade() {
+		return descontoPorQuantidade;
+	}
+	
+}

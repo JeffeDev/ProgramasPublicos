@@ -1,0 +1,16 @@
+package br.com.wmw.cleancode.nomenclaturas;
+
+public class ClienteService {
+
+	private ClienteRepository repositoryCliente;
+
+	public ClienteService(final ClienteRepository cliente) {
+		this.repositoryCliente = cliente;
+	}
+
+	public Cliente findById(final Cliente cliente) {
+		Cliente clienteRetorno = this.repositoryCliente.consultar(cliente.getIdCliente());
+		return clienteRetorno;
+	}
+
+}

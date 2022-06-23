@@ -1,0 +1,10 @@
+package br.com.wmw.cleancode.nomenclaturas;
+
+public class TestarCirculo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,43 @@
+package br.com.wmw.cleancode.comentarios;
+
+public class PedidoService {
+	Double desconto = 0D;
+
+	public Double calcularDesconto(final Double valor, final Integer quantidade, final Integer estoque,
+			final boolean descontoPorEstoque, final boolean descontoPorQuantidade) {
+
+		if (descontoPorQuantidade) {
+			desconto = CalcularValorDoDesconto(quantidade);
+		}
+		desconto = CalcularDescontoDoEstoquePorQuantidade(estoque, descontoPorEstoque, desconto);
+
+		return valor * AplicarDesconto(desconto);
+	}
+
+	private Double CalcularValorDoDesconto(Integer quantidade) {
+		if (quantidade >= 10) {
+			return 5D;
+		}
+		if (quantidade >= 50) {
+			return 10D;
+		}
+		if (quantidade >= 100) {
+			return 20D;
+		}
+
+		return 1;
+	}
+
+	private double AplicarDesconto(Double desconto) {
+		return 1 - (desconto / 100);
+	}
+
+	private Double CalcularDescontoDoEstoquePorQuantidade(final Integer estoque, final boolean descontoPorEstoque,
+			Double desconto) {
+		if (descontoPorEstoque && (estoque > 1000)) {
+			desconto = desconto + 5D;
+		}
+		return desconto;
+	}
+
+}
