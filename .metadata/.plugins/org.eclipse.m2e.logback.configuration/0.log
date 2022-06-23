@@ -344,3 +344,4 @@
 2022-06-23 14:33:59,761 [Worker-17: Launching TestarCirculo] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-23 14:33:59,762 [Worker-17: Launching TestarCirculo] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Workspace\ExercicioCleanCode\exercicios-clean-code-main\src\main\resources
 2022-06-23 14:33:59,764 [Worker-17: Launching TestarCirculo] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-23 14:33:59,765 [Worker-17: Launching TestarCirculo] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Workspace\ExercicioCleanCode\exercicios-clean-code-main\src\test\resources
