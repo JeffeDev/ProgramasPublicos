@@ -5,8 +5,11 @@ import java.math.BigDecimal;
 public class Produto {
 	
 	private String descricao;
+	
 	private BigDecimal preco;
+	
 	private Categoria categoria;
+	
 	private Integer quantidade;
 	
 	public Produto(String descricao, BigDecimal preco, Categoria categoria) {

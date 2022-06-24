@@ -23,8 +23,14 @@ public class CompraPessoaJuridica {
 
 	private static List<Produto> criarProdutos(Categoria categoria) {
 		
+		//5 Mulheres na equipe
 		Produto _212 = new Produto("212 Sexy Feminino",new BigDecimal(("179.99")), categoria, 5);
+
+		//2 Diretoras na equipe
 		Produto chanel = new Produto("Chanel Nº5 ", new BigDecimal("665"), categoria, 2);
+		
+		
+		//7 Homens da equipe
 		Produto sauvage = new Produto("Sauvage", new BigDecimal("375"), categoria, 7);
 		
 		return  Arrays.asList(_212, chanel, sauvage);
