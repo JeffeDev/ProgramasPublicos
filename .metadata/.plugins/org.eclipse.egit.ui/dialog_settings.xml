@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="2"/>
 	<list key="EGit.KnownHosts">
 		<item value="git.eclipse.org"/>
-		<item value="github.com"/>
 		<item value="bitbucket.org"/>
+		<item value="github.com"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/wmwsystems/curso-testes-legado"/>
+		<item value="http://github.com/alura-cursos/listavipServlet"/>
 		<item value="https://github.com/wmwsystems/exercicios-clean-code.git"/>
 	</list>
 	<section name="GitImportWizard">
